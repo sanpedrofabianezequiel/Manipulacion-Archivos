@@ -7,7 +7,7 @@ public class AccesoArchivosCarpetas {
 	public static void main(String[] args) {
 		
 		
-		File ruta=new File("C:\\Users\\Ezequiel\\Desktop\\Programas\\EducacionIT");
+		File ruta=new File("C:"+File.separator+"Users"+File.separator+"Ezequiel"+File.separator+"Desktop"+File.separator+"Programas"+File.separator+"EducacionIT");
 		
 		//Imprimimos la ruta absoluta 
 		System.out.println(ruta.getAbsolutePath());
